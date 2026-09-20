@@ -6,3 +6,5 @@ opencv-python
 numpy
 bcrypt
 PyJWT
+scipy
+alphashape
