@@ -1,0 +1,2593 @@
+{
+  "buildings": [
+    {
+      "id": "UP80010001",
+      "name": "Greenview Tower",
+      "position": [
+        -20,
+        0,
+        -18
+      ],
+      "footprint": [
+        10,
+        10
+      ],
+      "approvedFloors": 8,
+      "actualFloors": 8,
+      "approvedDepth": -6,
+      "actualDepth": -6,
+      "units": [
+        {
+          "ulpin": "27-25-01-0011-0001-B1",
+          "type": "basement",
+          "floorNumber": -2,
+          "zRange": [
+            -6,
+            -3
+          ],
+          "owner": "Common Area",
+          "status": "approved",
+          "approvedDimensions": [
+            10,
+            3,
+            10
+          ],
+          "actualDimensions": [
+            10,
+            3,
+            10
+          ],
+          "families": []
+        },
+        {
+          "ulpin": "27-25-01-0011-0001-P1",
+          "type": "parking",
+          "floorNumber": -1,
+          "zRange": [
+            -3,
+            0
+          ],
+          "owner": "RWA Society",
+          "status": "approved",
+          "approvedDimensions": [
+            10,
+            3,
+            10
+          ],
+          "actualDimensions": [
+            10,
+            3,
+            10
+          ],
+          "families": []
+        },
+        {
+          "ulpin": "27-25-01-0011-0001-F01",
+          "type": "floor",
+          "floorNumber": 1,
+          "zRange": [
+            0,
+            3
+          ],
+          "owner": "Multiple Families",
+          "status": "approved",
+          "approvedDimensions": [
+            10,
+            3,
+            10
+          ],
+          "actualDimensions": [
+            10,
+            3,
+            10
+          ],
+          "families": [
+            {
+              "name": "Amit Verma",
+              "unit": "101",
+              "area": "1200 sq ft"
+            },
+            {
+              "name": "Priya Sharma",
+              "unit": "102",
+              "area": "950 sq ft"
+            },
+            {
+              "name": "Rohit Das",
+              "unit": "103",
+              "area": "1100 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Amit Verma",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 33.33,
+            "registrationNo": "PMC/REG/010011/0001",
+            "mutationDate": "2020-03-12",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "Priya Sharma",
+                "sharePercent": 33.33
+              },
+              {
+                "name": "Rohit Das",
+                "sharePercent": 33.33
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-01-0011-0001-F02",
+          "type": "floor",
+          "floorNumber": 2,
+          "zRange": [
+            3,
+            6
+          ],
+          "owner": "Multiple Families",
+          "status": "approved",
+          "approvedDimensions": [
+            10,
+            3,
+            10
+          ],
+          "actualDimensions": [
+            10,
+            3,
+            10
+          ],
+          "families": [
+            {
+              "name": "Sunita Devi",
+              "unit": "201",
+              "area": "1200 sq ft"
+            },
+            {
+              "name": "Manoj Tiwari",
+              "unit": "202",
+              "area": "1150 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Sunita Devi",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 50.0,
+            "registrationNo": "PMC/REG/010011/0002",
+            "mutationDate": "2021-04-13",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "Manoj Tiwari",
+                "sharePercent": 50.0
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-01-0011-0001-F03",
+          "type": "floor",
+          "floorNumber": 3,
+          "zRange": [
+            6,
+            9
+          ],
+          "owner": "Multiple Families",
+          "status": "approved",
+          "approvedDimensions": [
+            10,
+            3,
+            10
+          ],
+          "actualDimensions": [
+            10,
+            3,
+            10
+          ],
+          "families": [
+            {
+              "name": "Rajesh Kumar",
+              "unit": "301",
+              "area": "1050 sq ft"
+            },
+            {
+              "name": "Kavita Joshi",
+              "unit": "302",
+              "area": "1100 sq ft"
+            },
+            {
+              "name": "Sanjay Mehra",
+              "unit": "303",
+              "area": "900 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Rajesh Kumar",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 33.33,
+            "registrationNo": "PMC/REG/010011/0003",
+            "mutationDate": "2022-05-14",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "Kavita Joshi",
+                "sharePercent": 33.33
+              },
+              {
+                "name": "Sanjay Mehra",
+                "sharePercent": 33.33
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-01-0011-0001-F04",
+          "type": "floor",
+          "floorNumber": 4,
+          "zRange": [
+            9,
+            12
+          ],
+          "owner": "Multiple Families",
+          "status": "approved",
+          "approvedDimensions": [
+            10,
+            3,
+            10
+          ],
+          "actualDimensions": [
+            10,
+            3,
+            10
+          ],
+          "families": [
+            {
+              "name": "Vikram Singh",
+              "unit": "401",
+              "area": "1200 sq ft"
+            },
+            {
+              "name": "Meena Patel",
+              "unit": "402",
+              "area": "1200 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Vikram Singh",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 50.0,
+            "registrationNo": "PMC/REG/010011/0004",
+            "mutationDate": "2023-06-15",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "Meena Patel",
+                "sharePercent": 50.0
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-01-0011-0001-F05",
+          "type": "floor",
+          "floorNumber": 5,
+          "zRange": [
+            12,
+            15
+          ],
+          "owner": "Multiple Families",
+          "status": "approved",
+          "approvedDimensions": [
+            10,
+            3,
+            10
+          ],
+          "actualDimensions": [
+            10,
+            3,
+            10
+          ],
+          "families": [
+            {
+              "name": "Arjun Reddy",
+              "unit": "501",
+              "area": "1100 sq ft"
+            },
+            {
+              "name": "Lata Jain",
+              "unit": "502",
+              "area": "1050 sq ft"
+            },
+            {
+              "name": "Deepa Nair",
+              "unit": "503",
+              "area": "850 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Arjun Reddy",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 33.33,
+            "registrationNo": "PMC/REG/010011/0005",
+            "mutationDate": "2018-07-16",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "Lata Jain",
+                "sharePercent": 33.33
+              },
+              {
+                "name": "Deepa Nair",
+                "sharePercent": 33.33
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-01-0011-0001-F06",
+          "type": "floor",
+          "floorNumber": 6,
+          "zRange": [
+            15,
+            18
+          ],
+          "owner": "Multiple Families",
+          "status": "approved",
+          "approvedDimensions": [
+            10,
+            3,
+            10
+          ],
+          "actualDimensions": [
+            10,
+            3,
+            10
+          ],
+          "families": [
+            {
+              "name": "Ramesh Chandra",
+              "unit": "601",
+              "area": "1200 sq ft"
+            },
+            {
+              "name": "Pooja Saxena",
+              "unit": "602",
+              "area": "1200 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Ramesh Chandra",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 50.0,
+            "registrationNo": "PMC/REG/010011/0006",
+            "mutationDate": "2019-08-17",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "Pooja Saxena",
+                "sharePercent": 50.0
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-01-0011-0001-F07",
+          "type": "floor",
+          "floorNumber": 7,
+          "zRange": [
+            18,
+            21
+          ],
+          "owner": "Multiple Families",
+          "status": "approved",
+          "approvedDimensions": [
+            10,
+            3,
+            10
+          ],
+          "actualDimensions": [
+            10,
+            3,
+            10
+          ],
+          "families": [
+            {
+              "name": "Nitin Agarwal",
+              "unit": "701",
+              "area": "1400 sq ft"
+            },
+            {
+              "name": "Swati Gupta",
+              "unit": "702",
+              "area": "1000 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Nitin Agarwal",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 50.0,
+            "registrationNo": "PMC/REG/010011/0007",
+            "mutationDate": "2020-09-18",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "Swati Gupta",
+                "sharePercent": 50.0
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-01-0011-0001-F08",
+          "type": "floor",
+          "floorNumber": 8,
+          "zRange": [
+            21,
+            24
+          ],
+          "owner": "Multiple Families",
+          "status": "approved",
+          "approvedDimensions": [
+            10,
+            3,
+            10
+          ],
+          "actualDimensions": [
+            10,
+            3,
+            10
+          ],
+          "families": [
+            {
+              "name": "Anand Sharma",
+              "unit": "801",
+              "area": "1500 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Anand Sharma",
+            "ownershipType": "Freehold (Sole Owner)",
+            "sharePercent": 100.0,
+            "registrationNo": "PMC/REG/010011/0008",
+            "mutationDate": "2021-01-19",
+            "verificationStatus": "Verified",
+            "coOwners": []
+          }
+        }
+      ],
+      "baseUlpin": "27250100110001"
+    },
+    {
+      "id": "UP80010002",
+      "name": "Lakeside Plaza",
+      "position": [
+        8,
+        0,
+        -18
+      ],
+      "footprint": [
+        12,
+        8
+      ],
+      "approvedFloors": 6,
+      "actualFloors": 6,
+      "approvedDepth": -6,
+      "actualDepth": -6,
+      "units": [
+        {
+          "ulpin": "27-25-01-0012-0001-B1",
+          "type": "basement",
+          "floorNumber": -2,
+          "zRange": [
+            -6,
+            -3
+          ],
+          "owner": "Common Area",
+          "status": "approved",
+          "approvedDimensions": [
+            12,
+            3,
+            8
+          ],
+          "actualDimensions": [
+            12,
+            3,
+            8
+          ],
+          "families": []
+        },
+        {
+          "ulpin": "27-25-01-0012-0001-P1",
+          "type": "parking",
+          "floorNumber": -1,
+          "zRange": [
+            -3,
+            0
+          ],
+          "owner": "RWA Society",
+          "status": "approved",
+          "approvedDimensions": [
+            12,
+            3,
+            8
+          ],
+          "actualDimensions": [
+            12,
+            3,
+            8
+          ],
+          "families": []
+        },
+        {
+          "ulpin": "27-25-01-0012-0001-F01",
+          "type": "floor",
+          "floorNumber": 1,
+          "zRange": [
+            0,
+            3
+          ],
+          "owner": "Multiple Families",
+          "status": "approved",
+          "approvedDimensions": [
+            12,
+            3,
+            8
+          ],
+          "actualDimensions": [
+            12,
+            3,
+            8
+          ],
+          "families": [
+            {
+              "name": "Deepak Gupta",
+              "unit": "101",
+              "area": "1300 sq ft"
+            },
+            {
+              "name": "Anita Desai",
+              "unit": "102",
+              "area": "1100 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Deepak Gupta",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 50.0,
+            "registrationNo": "PMC/REG/010012/0009",
+            "mutationDate": "2022-02-20",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "Anita Desai",
+                "sharePercent": 50.0
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-01-0012-0001-F02",
+          "type": "floor",
+          "floorNumber": 2,
+          "zRange": [
+            3,
+            6
+          ],
+          "owner": "Multiple Families",
+          "status": "approved",
+          "approvedDimensions": [
+            12,
+            3,
+            8
+          ],
+          "actualDimensions": [
+            12,
+            3,
+            8
+          ],
+          "families": [
+            {
+              "name": "Suresh Nair",
+              "unit": "201",
+              "area": "1200 sq ft"
+            },
+            {
+              "name": "Geeta Iyer",
+              "unit": "202",
+              "area": "1200 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Suresh Nair",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 50.0,
+            "registrationNo": "PMC/REG/010012/0010",
+            "mutationDate": "2023-03-21",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "Geeta Iyer",
+                "sharePercent": 50.0
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-01-0012-0001-F03",
+          "type": "floor",
+          "floorNumber": 3,
+          "zRange": [
+            6,
+            9
+          ],
+          "owner": "Multiple Families",
+          "status": "approved",
+          "approvedDimensions": [
+            12,
+            3,
+            8
+          ],
+          "actualDimensions": [
+            12,
+            3,
+            8
+          ],
+          "families": [
+            {
+              "name": "Pooja Mehta",
+              "unit": "301",
+              "area": "1000 sq ft"
+            },
+            {
+              "name": "Ravi Shankar",
+              "unit": "302",
+              "area": "1100 sq ft"
+            },
+            {
+              "name": "Neha Kapoor",
+              "unit": "303",
+              "area": "900 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Pooja Mehta",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 33.33,
+            "registrationNo": "PMC/REG/010012/0011",
+            "mutationDate": "2018-04-22",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "Ravi Shankar",
+                "sharePercent": 33.33
+              },
+              {
+                "name": "Neha Kapoor",
+                "sharePercent": 33.33
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-01-0012-0001-F04",
+          "type": "floor",
+          "floorNumber": 4,
+          "zRange": [
+            9,
+            12
+          ],
+          "owner": "Multiple Families",
+          "status": "approved",
+          "approvedDimensions": [
+            12,
+            3,
+            8
+          ],
+          "actualDimensions": [
+            12,
+            3,
+            8
+          ],
+          "families": [
+            {
+              "name": "Manish Tiwari",
+              "unit": "401",
+              "area": "1400 sq ft"
+            },
+            {
+              "name": "Shalini Bose",
+              "unit": "402",
+              "area": "1000 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Manish Tiwari",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 50.0,
+            "registrationNo": "PMC/REG/010012/0012",
+            "mutationDate": "2019-05-23",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "Shalini Bose",
+                "sharePercent": 50.0
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-01-0012-0001-F05",
+          "type": "floor",
+          "floorNumber": 5,
+          "zRange": [
+            12,
+            15
+          ],
+          "owner": "Multiple Families",
+          "status": "approved",
+          "approvedDimensions": [
+            12,
+            3,
+            8
+          ],
+          "actualDimensions": [
+            12,
+            3,
+            8
+          ],
+          "families": [
+            {
+              "name": "Prakash Rao",
+              "unit": "501",
+              "area": "1200 sq ft"
+            },
+            {
+              "name": "Seema Malik",
+              "unit": "502",
+              "area": "1200 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Prakash Rao",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 50.0,
+            "registrationNo": "PMC/REG/010012/0013",
+            "mutationDate": "2020-06-24",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "Seema Malik",
+                "sharePercent": 50.0
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-01-0012-0001-F06",
+          "type": "floor",
+          "floorNumber": 6,
+          "zRange": [
+            15,
+            18
+          ],
+          "owner": "Multiple Families",
+          "status": "approved",
+          "approvedDimensions": [
+            12,
+            3,
+            8
+          ],
+          "actualDimensions": [
+            12,
+            3,
+            8
+          ],
+          "families": [
+            {
+              "name": "Tarun Khanna",
+              "unit": "601",
+              "area": "1500 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Tarun Khanna",
+            "ownershipType": "Freehold (Sole Owner)",
+            "sharePercent": 100.0,
+            "registrationNo": "PMC/REG/010012/0014",
+            "mutationDate": "2021-07-25",
+            "verificationStatus": "Verified",
+            "coOwners": []
+          }
+        }
+      ],
+      "baseUlpin": "27250100120001"
+    },
+    {
+      "id": "UP80010003",
+      "name": "Sunrise Residency",
+      "position": [
+        -20,
+        0,
+        8
+      ],
+      "footprint": [
+        8,
+        12
+      ],
+      "approvedFloors": 5,
+      "actualFloors": 5,
+      "approvedDepth": -6,
+      "actualDepth": -6,
+      "units": [
+        {
+          "ulpin": "27-25-01-0013-0001-B1",
+          "type": "basement",
+          "floorNumber": -2,
+          "zRange": [
+            -6,
+            -3
+          ],
+          "owner": "Common Area",
+          "status": "approved",
+          "approvedDimensions": [
+            8,
+            3,
+            12
+          ],
+          "actualDimensions": [
+            8,
+            3,
+            12
+          ],
+          "families": []
+        },
+        {
+          "ulpin": "27-25-01-0013-0001-P1",
+          "type": "parking",
+          "floorNumber": -1,
+          "zRange": [
+            -3,
+            0
+          ],
+          "owner": "RWA Society",
+          "status": "approved",
+          "approvedDimensions": [
+            8,
+            3,
+            12
+          ],
+          "actualDimensions": [
+            8,
+            3,
+            12
+          ],
+          "families": []
+        },
+        {
+          "ulpin": "27-25-01-0013-0001-F01",
+          "type": "floor",
+          "floorNumber": 1,
+          "zRange": [
+            0,
+            3
+          ],
+          "owner": "Multiple Families",
+          "status": "approved",
+          "approvedDimensions": [
+            8,
+            3,
+            12
+          ],
+          "actualDimensions": [
+            8,
+            3,
+            12
+          ],
+          "families": [
+            {
+              "name": "Anil Kapoor",
+              "unit": "101",
+              "area": "1100 sq ft"
+            },
+            {
+              "name": "Rekha Singh",
+              "unit": "102",
+              "area": "1050 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Anil Kapoor",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 50.0,
+            "registrationNo": "PMC/REG/010013/0015",
+            "mutationDate": "2022-08-26",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "Rekha Singh",
+                "sharePercent": 50.0
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-01-0013-0001-F02",
+          "type": "floor",
+          "floorNumber": 2,
+          "zRange": [
+            3,
+            6
+          ],
+          "owner": "Multiple Families",
+          "status": "approved",
+          "approvedDimensions": [
+            8,
+            3,
+            12
+          ],
+          "actualDimensions": [
+            8,
+            3,
+            12
+          ],
+          "families": [
+            {
+              "name": "Bharat Bhushan",
+              "unit": "201",
+              "area": "1000 sq ft"
+            },
+            {
+              "name": "Chitra Deshpande",
+              "unit": "202",
+              "area": "1100 sq ft"
+            },
+            {
+              "name": "Dinesh Lal",
+              "unit": "203",
+              "area": "850 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Bharat Bhushan",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 33.33,
+            "registrationNo": "PMC/REG/010013/0016",
+            "mutationDate": "2023-09-27",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "Chitra Deshpande",
+                "sharePercent": 33.33
+              },
+              {
+                "name": "Dinesh Lal",
+                "sharePercent": 33.33
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-01-0013-0001-F03",
+          "type": "floor",
+          "floorNumber": 3,
+          "zRange": [
+            6,
+            9
+          ],
+          "owner": "Multiple Families",
+          "status": "approved",
+          "approvedDimensions": [
+            8,
+            3,
+            12
+          ],
+          "actualDimensions": [
+            8,
+            3,
+            12
+          ],
+          "families": [
+            {
+              "name": "Esha Pandey",
+              "unit": "301",
+              "area": "1200 sq ft"
+            },
+            {
+              "name": "Farhan Khan",
+              "unit": "302",
+              "area": "1200 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Esha Pandey",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 50.0,
+            "registrationNo": "PMC/REG/010013/0017",
+            "mutationDate": "2018-01-10",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "Farhan Khan",
+                "sharePercent": 50.0
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-01-0013-0001-F04",
+          "type": "floor",
+          "floorNumber": 4,
+          "zRange": [
+            9,
+            12
+          ],
+          "owner": "Multiple Families",
+          "status": "approved",
+          "approvedDimensions": [
+            8,
+            3,
+            12
+          ],
+          "actualDimensions": [
+            8,
+            3,
+            12
+          ],
+          "families": [
+            {
+              "name": "Gaurav Mishra",
+              "unit": "401",
+              "area": "1100 sq ft"
+            },
+            {
+              "name": "Hema Malini",
+              "unit": "402",
+              "area": "1300 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Gaurav Mishra",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 50.0,
+            "registrationNo": "PMC/REG/010013/0018",
+            "mutationDate": "2019-02-11",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "Hema Malini",
+                "sharePercent": 50.0
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-01-0013-0001-F05",
+          "type": "floor",
+          "floorNumber": 5,
+          "zRange": [
+            12,
+            15
+          ],
+          "owner": "Multiple Families",
+          "status": "approved",
+          "approvedDimensions": [
+            8,
+            3,
+            12
+          ],
+          "actualDimensions": [
+            8,
+            3,
+            12
+          ],
+          "families": [
+            {
+              "name": "Ishaan Khatter",
+              "unit": "501",
+              "area": "1500 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Ishaan Khatter",
+            "ownershipType": "Freehold (Sole Owner)",
+            "sharePercent": 100.0,
+            "registrationNo": "PMC/REG/010013/0019",
+            "mutationDate": "2020-03-12",
+            "verificationStatus": "Verified",
+            "coOwners": []
+          }
+        }
+      ],
+      "baseUlpin": "27250100130001"
+    },
+    {
+      "id": "UP80010004",
+      "name": "Royal Heights",
+      "position": [
+        8,
+        0,
+        8
+      ],
+      "footprint": [
+        10,
+        10
+      ],
+      "approvedFloors": 8,
+      "actualFloors": 10,
+      "approvedDepth": -6,
+      "actualDepth": -10,
+      "units": [
+        {
+          "ulpin": "27-25-01-0014-0001-B2",
+          "type": "basement",
+          "floorNumber": -3,
+          "zRange": [
+            -10,
+            -6
+          ],
+          "owner": "Unknown",
+          "status": "unauthorized",
+          "approvedDimensions": [
+            0,
+            0,
+            0
+          ],
+          "actualDimensions": [
+            10,
+            4,
+            10
+          ],
+          "families": []
+        },
+        {
+          "ulpin": "27-25-01-0014-0001-B1",
+          "type": "basement",
+          "floorNumber": -2,
+          "zRange": [
+            -6,
+            -3
+          ],
+          "owner": "Common Area",
+          "status": "approved",
+          "approvedDimensions": [
+            10,
+            3,
+            10
+          ],
+          "actualDimensions": [
+            10,
+            3,
+            10
+          ],
+          "families": []
+        },
+        {
+          "ulpin": "27-25-01-0014-0001-P1",
+          "type": "parking",
+          "floorNumber": -1,
+          "zRange": [
+            -3,
+            0
+          ],
+          "owner": "RWA Society",
+          "status": "approved",
+          "approvedDimensions": [
+            10,
+            3,
+            10
+          ],
+          "actualDimensions": [
+            10,
+            3,
+            10
+          ],
+          "families": []
+        },
+        {
+          "ulpin": "27-25-01-0014-0001-F01",
+          "type": "floor",
+          "floorNumber": 1,
+          "zRange": [
+            0,
+            3
+          ],
+          "owner": "Multiple Families",
+          "status": "approved",
+          "approvedDimensions": [
+            10,
+            3,
+            10
+          ],
+          "actualDimensions": [
+            10,
+            3,
+            10
+          ],
+          "families": [
+            {
+              "name": "Rahul Sharma",
+              "unit": "101",
+              "area": "1200 sq ft"
+            },
+            {
+              "name": "Nisha Agarwal",
+              "unit": "102",
+              "area": "1000 sq ft"
+            },
+            {
+              "name": "Kunal Batra",
+              "unit": "103",
+              "area": "800 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Rahul Sharma",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 33.33,
+            "registrationNo": "PMC/REG/010014/0020",
+            "mutationDate": "2021-04-13",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "Nisha Agarwal",
+                "sharePercent": 33.33
+              },
+              {
+                "name": "Kunal Batra",
+                "sharePercent": 33.33
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-01-0014-0001-F02",
+          "type": "floor",
+          "floorNumber": 2,
+          "zRange": [
+            3,
+            6
+          ],
+          "owner": "Multiple Families",
+          "status": "approved",
+          "approvedDimensions": [
+            10,
+            3,
+            10
+          ],
+          "actualDimensions": [
+            10,
+            3,
+            10
+          ],
+          "families": [
+            {
+              "name": "Arun Bhatt",
+              "unit": "201",
+              "area": "1100 sq ft"
+            },
+            {
+              "name": "Smita Kulkarni",
+              "unit": "202",
+              "area": "1100 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Arun Bhatt",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 50.0,
+            "registrationNo": "PMC/REG/010014/0021",
+            "mutationDate": "2022-05-14",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "Smita Kulkarni",
+                "sharePercent": 50.0
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-01-0014-0001-F03",
+          "type": "floor",
+          "floorNumber": 3,
+          "zRange": [
+            6,
+            9
+          ],
+          "owner": "Multiple Families",
+          "status": "approved",
+          "approvedDimensions": [
+            10,
+            3,
+            10
+          ],
+          "actualDimensions": [
+            10,
+            3,
+            10
+          ],
+          "families": [
+            {
+              "name": "Vivek Mishra",
+              "unit": "301",
+              "area": "1200 sq ft"
+            },
+            {
+              "name": "Jaya Prada",
+              "unit": "302",
+              "area": "1200 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Vivek Mishra",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 50.0,
+            "registrationNo": "PMC/REG/010014/0022",
+            "mutationDate": "2023-06-15",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "Jaya Prada",
+                "sharePercent": 50.0
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-01-0014-0001-F04",
+          "type": "floor",
+          "floorNumber": 4,
+          "zRange": [
+            9,
+            12
+          ],
+          "owner": "Multiple Families",
+          "status": "approved",
+          "approvedDimensions": [
+            10,
+            3,
+            10
+          ],
+          "actualDimensions": [
+            10,
+            3,
+            10
+          ],
+          "families": [
+            {
+              "name": "Lata Mangeshkar",
+              "unit": "401",
+              "area": "1400 sq ft"
+            },
+            {
+              "name": "Asha Bhosle",
+              "unit": "402",
+              "area": "1000 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Lata Mangeshkar",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 50.0,
+            "registrationNo": "PMC/REG/010014/0023",
+            "mutationDate": "2018-07-16",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "Asha Bhosle",
+                "sharePercent": 50.0
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-01-0014-0001-F05",
+          "type": "floor",
+          "floorNumber": 5,
+          "zRange": [
+            12,
+            15
+          ],
+          "owner": "Multiple Families",
+          "status": "approved",
+          "approvedDimensions": [
+            10,
+            3,
+            10
+          ],
+          "actualDimensions": [
+            10,
+            3,
+            10
+          ],
+          "families": [
+            {
+              "name": "Kiran Bedi",
+              "unit": "501",
+              "area": "1200 sq ft"
+            },
+            {
+              "name": "Medha Patkar",
+              "unit": "502",
+              "area": "1200 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Kiran Bedi",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 50.0,
+            "registrationNo": "PMC/REG/010014/0024",
+            "mutationDate": "2019-08-17",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "Medha Patkar",
+                "sharePercent": 50.0
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-01-0014-0001-F06",
+          "type": "floor",
+          "floorNumber": 6,
+          "zRange": [
+            15,
+            18
+          ],
+          "owner": "Multiple Families",
+          "status": "approved",
+          "approvedDimensions": [
+            10,
+            3,
+            10
+          ],
+          "actualDimensions": [
+            10,
+            3,
+            10
+          ],
+          "families": [
+            {
+              "name": "Dev Anand",
+              "unit": "601",
+              "area": "1300 sq ft"
+            },
+            {
+              "name": "Waheeda Rehman",
+              "unit": "602",
+              "area": "1100 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Dev Anand",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 50.0,
+            "registrationNo": "PMC/REG/010014/0025",
+            "mutationDate": "2020-09-18",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "Waheeda Rehman",
+                "sharePercent": 50.0
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-01-0014-0001-F07",
+          "type": "floor",
+          "floorNumber": 7,
+          "zRange": [
+            18,
+            21
+          ],
+          "owner": "Multiple Families",
+          "status": "approved",
+          "approvedDimensions": [
+            10,
+            3,
+            10
+          ],
+          "actualDimensions": [
+            10,
+            3,
+            10
+          ],
+          "families": [
+            {
+              "name": "Raj Kapoor",
+              "unit": "701",
+              "area": "1500 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Raj Kapoor",
+            "ownershipType": "Freehold (Sole Owner)",
+            "sharePercent": 100.0,
+            "registrationNo": "PMC/REG/010014/0026",
+            "mutationDate": "2021-01-19",
+            "verificationStatus": "Verified",
+            "coOwners": []
+          }
+        },
+        {
+          "ulpin": "27-25-01-0014-0001-F08",
+          "type": "floor",
+          "floorNumber": 8,
+          "zRange": [
+            21,
+            24
+          ],
+          "owner": "Multiple Families",
+          "status": "approved",
+          "approvedDimensions": [
+            10,
+            3,
+            10
+          ],
+          "actualDimensions": [
+            10,
+            3,
+            10
+          ],
+          "families": [
+            {
+              "name": "Amitabh Bachchan",
+              "unit": "801",
+              "area": "1800 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Amitabh Bachchan",
+            "ownershipType": "Freehold (Sole Owner)",
+            "sharePercent": 100.0,
+            "registrationNo": "PMC/REG/010014/0027",
+            "mutationDate": "2022-02-20",
+            "verificationStatus": "Verified",
+            "coOwners": []
+          }
+        },
+        {
+          "ulpin": "27-25-01-0014-0001-F09",
+          "type": "floor",
+          "floorNumber": 9,
+          "zRange": [
+            24,
+            27
+          ],
+          "owner": "Unknown",
+          "status": "unauthorized",
+          "approvedDimensions": [
+            0,
+            0,
+            0
+          ],
+          "actualDimensions": [
+            10,
+            3,
+            10
+          ],
+          "families": []
+        },
+        {
+          "ulpin": "27-25-01-0014-0001-F10",
+          "type": "floor",
+          "floorNumber": 10,
+          "zRange": [
+            27,
+            30
+          ],
+          "owner": "Unknown",
+          "status": "unauthorized",
+          "approvedDimensions": [
+            0,
+            0,
+            0
+          ],
+          "actualDimensions": [
+            10,
+            3,
+            10
+          ],
+          "families": []
+        }
+      ],
+      "baseUlpin": "27250100140001"
+    },
+    {
+      "id": "UP80010005",
+      "name": "City Center Mall",
+      "position": [
+        30,
+        0,
+        -5
+      ],
+      "footprint": [
+        14,
+        14
+      ],
+      "approvedFloors": 4,
+      "actualFloors": 4,
+      "approvedDepth": -9,
+      "actualDepth": -9,
+      "units": [
+        {
+          "ulpin": "27-25-01-0015-0001-B2",
+          "type": "basement",
+          "floorNumber": -3,
+          "zRange": [
+            -9,
+            -6
+          ],
+          "owner": "Common Area",
+          "status": "approved",
+          "approvedDimensions": [
+            14,
+            3,
+            14
+          ],
+          "actualDimensions": [
+            14,
+            3,
+            14
+          ],
+          "families": []
+        },
+        {
+          "ulpin": "27-25-01-0015-0001-B1",
+          "type": "basement",
+          "floorNumber": -2,
+          "zRange": [
+            -6,
+            -3
+          ],
+          "owner": "Common Area",
+          "status": "approved",
+          "approvedDimensions": [
+            14,
+            3,
+            14
+          ],
+          "actualDimensions": [
+            14,
+            3,
+            14
+          ],
+          "families": []
+        },
+        {
+          "ulpin": "27-25-01-0015-0001-P1",
+          "type": "parking",
+          "floorNumber": -1,
+          "zRange": [
+            -3,
+            0
+          ],
+          "owner": "Mall Authority",
+          "status": "approved",
+          "approvedDimensions": [
+            14,
+            3,
+            14
+          ],
+          "actualDimensions": [
+            14,
+            3,
+            14
+          ],
+          "families": []
+        },
+        {
+          "ulpin": "27-25-01-0015-0001-F01",
+          "type": "floor",
+          "floorNumber": 1,
+          "zRange": [
+            0,
+            4
+          ],
+          "owner": "Multiple Tenants",
+          "status": "approved",
+          "approvedDimensions": [
+            14,
+            4,
+            14
+          ],
+          "actualDimensions": [
+            14,
+            4,
+            14
+          ],
+          "families": [
+            {
+              "name": "Reliance Retail",
+              "unit": "G-01",
+              "area": "3000 sq ft"
+            },
+            {
+              "name": "Shoppers Stop",
+              "unit": "G-02",
+              "area": "2500 sq ft"
+            },
+            {
+              "name": "Cafe Coffee Day",
+              "unit": "G-03",
+              "area": "800 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Reliance Retail",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 33.33,
+            "registrationNo": "PMC/REG/010015/0028",
+            "mutationDate": "2023-03-21",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "Shoppers Stop",
+                "sharePercent": 33.33
+              },
+              {
+                "name": "Cafe Coffee Day",
+                "sharePercent": 33.33
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-01-0015-0001-F02",
+          "type": "floor",
+          "floorNumber": 2,
+          "zRange": [
+            4,
+            8
+          ],
+          "owner": "Multiple Tenants",
+          "status": "approved",
+          "approvedDimensions": [
+            14,
+            4,
+            14
+          ],
+          "actualDimensions": [
+            14,
+            4,
+            14
+          ],
+          "families": [
+            {
+              "name": "PVR Cinemas",
+              "unit": "L1-01",
+              "area": "5000 sq ft"
+            },
+            {
+              "name": "McDonald's",
+              "unit": "L1-02",
+              "area": "1200 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "PVR Cinemas",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 50.0,
+            "registrationNo": "PMC/REG/010015/0029",
+            "mutationDate": "2018-04-22",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "McDonald's",
+                "sharePercent": 50.0
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-01-0015-0001-F03",
+          "type": "floor",
+          "floorNumber": 3,
+          "zRange": [
+            8,
+            12
+          ],
+          "owner": "Multiple Tenants",
+          "status": "approved",
+          "approvedDimensions": [
+            14,
+            4,
+            14
+          ],
+          "actualDimensions": [
+            14,
+            4,
+            14
+          ],
+          "families": [
+            {
+              "name": "Zara",
+              "unit": "L2-01",
+              "area": "2800 sq ft"
+            },
+            {
+              "name": "H&M",
+              "unit": "L2-02",
+              "area": "2600 sq ft"
+            },
+            {
+              "name": "Nike",
+              "unit": "L2-03",
+              "area": "1500 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Zara",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 33.33,
+            "registrationNo": "PMC/REG/010015/0030",
+            "mutationDate": "2019-05-23",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "H&M",
+                "sharePercent": 33.33
+              },
+              {
+                "name": "Nike",
+                "sharePercent": 33.33
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-01-0015-0001-F04",
+          "type": "floor",
+          "floorNumber": 4,
+          "zRange": [
+            12,
+            16
+          ],
+          "owner": "Food Court",
+          "status": "approved",
+          "approvedDimensions": [
+            14,
+            4,
+            14
+          ],
+          "actualDimensions": [
+            14,
+            4,
+            14
+          ],
+          "families": [
+            {
+              "name": "Haldiram's",
+              "unit": "L3-01",
+              "area": "1200 sq ft"
+            },
+            {
+              "name": "Domino's",
+              "unit": "L3-02",
+              "area": "900 sq ft"
+            },
+            {
+              "name": "KFC",
+              "unit": "L3-03",
+              "area": "1000 sq ft"
+            },
+            {
+              "name": "Subway",
+              "unit": "L3-04",
+              "area": "700 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Haldiram's",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 25.0,
+            "registrationNo": "PMC/REG/010015/0031",
+            "mutationDate": "2020-06-24",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "Domino's",
+                "sharePercent": 25.0
+              },
+              {
+                "name": "KFC",
+                "sharePercent": 25.0
+              },
+              {
+                "name": "Subway",
+                "sharePercent": 25.0
+              }
+            ]
+          }
+        }
+      ],
+      "baseUlpin": "27250100150001"
+    },
+    {
+      "id": "UP80010006",
+      "name": "Techpark Omega",
+      "position": [
+        -5,
+        0,
+        30
+      ],
+      "footprint": [
+        16,
+        10
+      ],
+      "approvedFloors": 7,
+      "actualFloors": 7,
+      "approvedDepth": -6,
+      "actualDepth": -6,
+      "units": [
+        {
+          "ulpin": "27-25-02-0021-0001-B1",
+          "type": "basement",
+          "floorNumber": -2,
+          "zRange": [
+            -6,
+            -3
+          ],
+          "owner": "Common Area",
+          "status": "approved",
+          "approvedDimensions": [
+            16,
+            3,
+            10
+          ],
+          "actualDimensions": [
+            16,
+            3,
+            10
+          ],
+          "families": []
+        },
+        {
+          "ulpin": "27-25-02-0021-0001-P1",
+          "type": "parking",
+          "floorNumber": -1,
+          "zRange": [
+            -3,
+            0
+          ],
+          "owner": "Techpark RWA",
+          "status": "approved",
+          "approvedDimensions": [
+            16,
+            3,
+            10
+          ],
+          "actualDimensions": [
+            16,
+            3,
+            10
+          ],
+          "families": []
+        },
+        {
+          "ulpin": "27-25-02-0021-0001-F01",
+          "type": "floor",
+          "floorNumber": 1,
+          "zRange": [
+            0,
+            3
+          ],
+          "owner": "Multiple Tenants",
+          "status": "approved",
+          "approvedDimensions": [
+            16,
+            3,
+            10
+          ],
+          "actualDimensions": [
+            16,
+            3,
+            10
+          ],
+          "families": [
+            {
+              "name": "Infosys Ltd",
+              "unit": "101",
+              "area": "4000 sq ft"
+            },
+            {
+              "name": "TCS",
+              "unit": "102",
+              "area": "3500 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Infosys Ltd",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 50.0,
+            "registrationNo": "PMC/REG/020021/0032",
+            "mutationDate": "2021-07-25",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "TCS",
+                "sharePercent": 50.0
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-02-0021-0001-F02",
+          "type": "floor",
+          "floorNumber": 2,
+          "zRange": [
+            3,
+            6
+          ],
+          "owner": "Multiple Tenants",
+          "status": "approved",
+          "approvedDimensions": [
+            16,
+            3,
+            10
+          ],
+          "actualDimensions": [
+            16,
+            3,
+            10
+          ],
+          "families": [
+            {
+              "name": "Wipro",
+              "unit": "201",
+              "area": "5000 sq ft"
+            },
+            {
+              "name": "HCL Tech",
+              "unit": "202",
+              "area": "2500 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Wipro",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 50.0,
+            "registrationNo": "PMC/REG/020021/0033",
+            "mutationDate": "2022-08-26",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "HCL Tech",
+                "sharePercent": 50.0
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-02-0021-0001-F03",
+          "type": "floor",
+          "floorNumber": 3,
+          "zRange": [
+            6,
+            9
+          ],
+          "owner": "Google India",
+          "status": "approved",
+          "approvedDimensions": [
+            16,
+            3,
+            10
+          ],
+          "actualDimensions": [
+            16,
+            3,
+            10
+          ],
+          "families": [
+            {
+              "name": "Google India",
+              "unit": "301",
+              "area": "7500 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Google India",
+            "ownershipType": "Freehold (Sole Owner)",
+            "sharePercent": 100.0,
+            "registrationNo": "PMC/REG/020021/0034",
+            "mutationDate": "2023-09-27",
+            "verificationStatus": "Verified",
+            "coOwners": []
+          }
+        },
+        {
+          "ulpin": "27-25-02-0021-0001-F04",
+          "type": "floor",
+          "floorNumber": 4,
+          "zRange": [
+            9,
+            12
+          ],
+          "owner": "Multiple Tenants",
+          "status": "approved",
+          "approvedDimensions": [
+            16,
+            3,
+            10
+          ],
+          "actualDimensions": [
+            16,
+            3,
+            10
+          ],
+          "families": [
+            {
+              "name": "Amazon India",
+              "unit": "401",
+              "area": "4000 sq ft"
+            },
+            {
+              "name": "Flipkart",
+              "unit": "402",
+              "area": "3500 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Amazon India",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 50.0,
+            "registrationNo": "PMC/REG/020021/0035",
+            "mutationDate": "2018-01-10",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "Flipkart",
+                "sharePercent": 50.0
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-02-0021-0001-F05",
+          "type": "floor",
+          "floorNumber": 5,
+          "zRange": [
+            12,
+            15
+          ],
+          "owner": "Microsoft",
+          "status": "approved",
+          "approvedDimensions": [
+            16,
+            3,
+            10
+          ],
+          "actualDimensions": [
+            16,
+            3,
+            10
+          ],
+          "families": [
+            {
+              "name": "Microsoft India",
+              "unit": "501",
+              "area": "7500 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Microsoft India",
+            "ownershipType": "Freehold (Sole Owner)",
+            "sharePercent": 100.0,
+            "registrationNo": "PMC/REG/020021/0036",
+            "mutationDate": "2019-02-11",
+            "verificationStatus": "Verified",
+            "coOwners": []
+          }
+        },
+        {
+          "ulpin": "27-25-02-0021-0001-F06",
+          "type": "floor",
+          "floorNumber": 6,
+          "zRange": [
+            15,
+            18
+          ],
+          "owner": "Multiple Tenants",
+          "status": "approved",
+          "approvedDimensions": [
+            16,
+            3,
+            10
+          ],
+          "actualDimensions": [
+            16,
+            3,
+            10
+          ],
+          "families": [
+            {
+              "name": "Accenture",
+              "unit": "601",
+              "area": "4000 sq ft"
+            },
+            {
+              "name": "Deloitte",
+              "unit": "602",
+              "area": "3500 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Accenture",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 50.0,
+            "registrationNo": "PMC/REG/020021/0037",
+            "mutationDate": "2020-03-12",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "Deloitte",
+                "sharePercent": 50.0
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-02-0021-0001-F07",
+          "type": "floor",
+          "floorNumber": 7,
+          "zRange": [
+            18,
+            21
+          ],
+          "owner": "WeWork",
+          "status": "approved",
+          "approvedDimensions": [
+            16,
+            3,
+            10
+          ],
+          "actualDimensions": [
+            16,
+            3,
+            10
+          ],
+          "families": [
+            {
+              "name": "WeWork",
+              "unit": "701",
+              "area": "7500 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "WeWork",
+            "ownershipType": "Freehold (Sole Owner)",
+            "sharePercent": 100.0,
+            "registrationNo": "PMC/REG/020021/0038",
+            "mutationDate": "2021-04-13",
+            "verificationStatus": "Verified",
+            "coOwners": []
+          }
+        }
+      ],
+      "baseUlpin": "27250200210001"
+    },
+    {
+      "id": "UP80010007",
+      "name": "Heritage Apartments",
+      "position": [
+        -38,
+        0,
+        -5
+      ],
+      "footprint": [
+        9,
+        11
+      ],
+      "approvedFloors": 4,
+      "actualFloors": 4,
+      "approvedDepth": -3,
+      "actualDepth": -3,
+      "units": [
+        {
+          "ulpin": "27-25-01-0016-0001-P1",
+          "type": "parking",
+          "floorNumber": -1,
+          "zRange": [
+            -3,
+            0
+          ],
+          "owner": "RWA Society",
+          "status": "approved",
+          "approvedDimensions": [
+            9,
+            3,
+            11
+          ],
+          "actualDimensions": [
+            9,
+            3,
+            11
+          ],
+          "families": []
+        },
+        {
+          "ulpin": "27-25-01-0016-0001-F01",
+          "type": "floor",
+          "floorNumber": 1,
+          "zRange": [
+            0,
+            3
+          ],
+          "owner": "Multiple Families",
+          "status": "approved",
+          "approvedDimensions": [
+            9,
+            3,
+            11
+          ],
+          "actualDimensions": [
+            9,
+            3,
+            11
+          ],
+          "families": [
+            {
+              "name": "Jagdish Prasad",
+              "unit": "101",
+              "area": "1100 sq ft"
+            },
+            {
+              "name": "Kamla Nehru",
+              "unit": "102",
+              "area": "1100 sq ft"
+            },
+            {
+              "name": "Lakshmi Bai",
+              "unit": "103",
+              "area": "800 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Jagdish Prasad",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 33.33,
+            "registrationNo": "PMC/REG/010016/0039",
+            "mutationDate": "2022-05-14",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "Kamla Nehru",
+                "sharePercent": 33.33
+              },
+              {
+                "name": "Lakshmi Bai",
+                "sharePercent": 33.33
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-01-0016-0001-F02",
+          "type": "floor",
+          "floorNumber": 2,
+          "zRange": [
+            3,
+            6
+          ],
+          "owner": "Multiple Families",
+          "status": "approved",
+          "approvedDimensions": [
+            9,
+            3,
+            11
+          ],
+          "actualDimensions": [
+            9,
+            3,
+            11
+          ],
+          "families": [
+            {
+              "name": "Mohan Das",
+              "unit": "201",
+              "area": "1200 sq ft"
+            },
+            {
+              "name": "Nalini Devi",
+              "unit": "202",
+              "area": "1000 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Mohan Das",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 50.0,
+            "registrationNo": "PMC/REG/010016/0040",
+            "mutationDate": "2023-06-15",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "Nalini Devi",
+                "sharePercent": 50.0
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-01-0016-0001-F03",
+          "type": "floor",
+          "floorNumber": 3,
+          "zRange": [
+            6,
+            9
+          ],
+          "owner": "Multiple Families",
+          "status": "approved",
+          "approvedDimensions": [
+            9,
+            3,
+            11
+          ],
+          "actualDimensions": [
+            9,
+            3,
+            11
+          ],
+          "families": [
+            {
+              "name": "Om Prakash",
+              "unit": "301",
+              "area": "1500 sq ft"
+            },
+            {
+              "name": "Parvati Sharma",
+              "unit": "302",
+              "area": "1000 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Om Prakash",
+            "ownershipType": "Joint Ownership",
+            "sharePercent": 50.0,
+            "registrationNo": "PMC/REG/010016/0041",
+            "mutationDate": "2018-07-16",
+            "verificationStatus": "Verified",
+            "coOwners": [
+              {
+                "name": "Parvati Sharma",
+                "sharePercent": 50.0
+              }
+            ]
+          }
+        },
+        {
+          "ulpin": "27-25-01-0016-0001-F04",
+          "type": "floor",
+          "floorNumber": 4,
+          "zRange": [
+            9,
+            12
+          ],
+          "owner": "Qasim Ali",
+          "status": "approved",
+          "approvedDimensions": [
+            9,
+            3,
+            11
+          ],
+          "actualDimensions": [
+            9,
+            3,
+            11
+          ],
+          "families": [
+            {
+              "name": "Qasim Ali",
+              "unit": "401",
+              "area": "2500 sq ft"
+            }
+          ],
+          "ownership": {
+            "ownerName": "Qasim Ali",
+            "ownershipType": "Freehold (Sole Owner)",
+            "sharePercent": 100.0,
+            "registrationNo": "PMC/REG/010016/0042",
+            "mutationDate": "2019-08-17",
+            "verificationStatus": "Verified",
+            "coOwners": []
+          }
+        }
+      ],
+      "baseUlpin": "27250100160001"
+    }
+  ],
+  "undergroundFeatures": [
+    {
+      "id": "well-01",
+      "type": "well",
+      "label": "Ancient Step Well",
+      "position": [
+        -5,
+        0,
+        -5
+      ],
+      "radius": 2,
+      "depth": -12,
+      "status": "protected_monument"
+    },
+    {
+      "id": "septic-01",
+      "type": "septic_tank",
+      "label": "Community Septic Tank",
+      "position": [
+        22,
+        0,
+        20
+      ],
+      "radius": 3,
+      "depth": -5,
+      "status": "active"
+    },
+    {
+      "id": "bunker-01",
+      "type": "bunker",
+      "label": "WWII Underground Bunker",
+      "position": [
+        -20,
+        0,
+        2
+      ],
+      "radius": 4,
+      "depth": -8,
+      "status": "abandoned"
+    },
+    {
+      "id": "watertank-01",
+      "type": "water_tank",
+      "label": "Underground Water Reservoir",
+      "position": [
+        10,
+        0,
+        -5
+      ],
+      "radius": 2.5,
+      "depth": -6,
+      "status": "active"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "A",
+      "label": "Point A",
+      "position": [
+        -30,
+        0,
+        -15
+      ]
+    },
+    {
+      "id": "B",
+      "label": "Point B",
+      "position": [
+        25,
+        0,
+        -15
+      ]
+    },
+    {
+      "id": "C",
+      "label": "Point C",
+      "position": [
+        25,
+        0,
+        25
+      ]
+    },
+    {
+      "id": "D",
+      "label": "Point D",
+      "position": [
+        -30,
+        0,
+        25
+      ]
+    }
+  ]
+}

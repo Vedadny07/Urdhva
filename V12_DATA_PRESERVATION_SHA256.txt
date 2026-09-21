@@ -1,0 +1,42 @@
+URDHVA V12 data-preservation manifest
+Base: V11 canonical prototype
+
+public/data/buildings.json
+  V11_SHA256: 9f52d8668a651c1fad6f712f0eaa1f8490cc9aae762f86890232ce147ce47588
+  V12_SHA256: 9f52d8668a651c1fad6f712f0eaa1f8490cc9aae762f86890232ce147ce47588
+  UNCHANGED: True
+
+public/data/infrastructure.json
+  V11_SHA256: 6de74d8d0729fc62320e1da5d4f0f5d24b5f0dcf7cff04674fa8b349e32cc733
+  V12_SHA256: 6de74d8d0729fc62320e1da5d4f0f5d24b5f0dcf7cff04674fa8b349e32cc733
+  UNCHANGED: True
+
+src/data/demoCadastreMap.js
+  V11_SHA256: b94aefb68b9047a840e185d127251abca642b621bc8f8bf0cec06d51f83a0c49
+  V12_SHA256: b94aefb68b9047a840e185d127251abca642b621bc8f8bf0cec06d51f83a0c49
+  UNCHANGED: True
+
+src/data/puneOsmCadastralPresets.js
+  V11_SHA256: 44ad68072d1e0fc2d6631585a726f6122b0030bd798efef5010a7acb0f8610cb
+  V12_SHA256: 44ad68072d1e0fc2d6631585a726f6122b0030bd798efef5010a7acb0f8610cb
+  UNCHANGED: True
+
+backend/urdhva_sample_lidar_building.ply
+  V11_SHA256: 50fc0ee50244d9744be9af92a8f33dffa069ef27399c8ea3cd9fd9f75e3c1e6e
+  V12_SHA256: 50fc0ee50244d9744be9af92a8f33dffa069ef27399c8ea3cd9fd9f75e3c1e6e
+  UNCHANGED: True
+
+public/urdhva_sample_lidar_building.ply
+  V11_SHA256: 50fc0ee50244d9744be9af92a8f33dffa069ef27399c8ea3cd9fd9f75e3c1e6e
+  V12_SHA256: 50fc0ee50244d9744be9af92a8f33dffa069ef27399c8ea3cd9fd9f75e3c1e6e
+  UNCHANGED: True
+
+package.json
+  V11_SHA256: 14a265b452ee55e0a95c9479ebad8538e6fe6cfbc686b6ebb3dbf61a4dfcb970
+  V12_SHA256: 14a265b452ee55e0a95c9479ebad8538e6fe6cfbc686b6ebb3dbf61a4dfcb970
+  UNCHANGED: True
+
+package-lock.json
+  V11_SHA256: cbe91d119f3b4aa7e550981df312c7288a0950782279ecbff0eff03c42a51691
+  V12_SHA256: cbe91d119f3b4aa7e550981df312c7288a0950782279ecbff0eff03c42a51691
+  UNCHANGED: True

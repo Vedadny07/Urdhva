@@ -1,0 +1,28 @@
+{
+  "infrastructure": [
+    {
+      "id": "metro-line-1",
+      "type": "metro_tunnel",
+      "label": "Metro Blue Line Tunnel",
+      "path": [[-30, -8, -15], [25, -8, -15]],
+      "radius": 2.5,
+      "color": "#3b82f6"
+    },
+    {
+      "id": "water-utility-1",
+      "type": "utility_line",
+      "label": "Water Main WM-07",
+      "path": [[5, -4, -25], [5, -4, 30]],
+      "radius": 0.5,
+      "color": "#f97316"
+    },
+    {
+      "id": "sewer-line-1",
+      "type": "utility_line",
+      "label": "Sewer Line SL-03",
+      "path": [[-35, -5, 0], [35, -5, 0]],
+      "radius": 0.8,
+      "color": "#a855f7"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+opencv-python
+numpy
+scipy
+shapely
+alphashape
+bcrypt
+PyJWT
+laspy
+trimesh
