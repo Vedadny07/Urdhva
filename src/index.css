@@ -158,31 +158,3 @@ body {
   padding: 16px;
   box-shadow: 0 4px 15px rgba(239, 68, 68, 0.08);
 }
-/* Geographic information panel: keep a clearly visible scrollbar so the
-   long building/ULPIN provenance sections remain easy to browse. */
-.urdhva-inspector-scroll {
-  scrollbar-width: auto;
-  overflow-y: scroll;
-  scrollbar-color: #94a3b8 #f1f5f9;
-  scrollbar-gutter: stable;
-  -webkit-overflow-scrolling: touch;
-}
-
-.urdhva-inspector-scroll::-webkit-scrollbar {
-  width: 9px;
-}
-
-.urdhva-inspector-scroll::-webkit-scrollbar-track {
-  background: #f1f5f9;
-  border-left: 1px solid #e2e8f0;
-}
-
-.urdhva-inspector-scroll::-webkit-scrollbar-thumb {
-  background: #94a3b8;
-  border-radius: 8px;
-  border: 2px solid #f1f5f9;
-}
-
-.urdhva-inspector-scroll::-webkit-scrollbar-thumb:hover {
-  background: #64748b;
-}

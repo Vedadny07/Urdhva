@@ -27,9 +27,6 @@ export default function InfoPanel() {
   const userRegionZone = useStore((s) => s.userRegionZone)
   const cityRegions = useStore((s) => s.cityRegions) || []
   const sharedMaps = useStore((s) => s.sharedMaps) || []
-  const geoPropertyContext = useStore((s) => s.geoPropertyContext)
-  const setGeoLocation = useStore((s) => s.setGeoLocation)
-  const clearGeoPropertyContext = useStore((s) => s.clearGeoPropertyContext)
 
   // Find selected unit data
   let unitData = null
@@ -105,28 +102,6 @@ export default function InfoPanel() {
 
       {/* Panel content */}
       <div className="flex-1 overflow-y-auto px-5 py-4 space-y-4">
-        {geoPropertyContext && (
-          <div className="rounded-xl border border-cyan-200 bg-cyan-50/70 p-3 shadow-sm">
-            <div className="flex items-center justify-between gap-2">
-              <div className="text-[10px] uppercase tracking-wider font-bold text-cyan-800">Geographic building handoff</div>
-              <span className="text-[9px] font-mono text-cyan-700">{geoPropertyContext.sourceId || 'source unavailable'}</span>
-            </div>
-            <div className="text-xs font-bold text-slate-900 mt-1 truncate">{geoPropertyContext.name}</div>
-            <div className="text-[9px] text-slate-600 mt-1 leading-relaxed">{geoPropertyContext.note}</div>
-            <div className="grid grid-cols-2 gap-2 mt-2">
-              <div className="rounded-lg bg-white border border-cyan-100 p-2"><div className="text-[9px] text-slate-400">Source</div><div className="text-[10px] font-semibold text-slate-800 truncate">{geoPropertyContext.source || 'Not available'}</div></div>
-              <div className="rounded-lg bg-white border border-cyan-100 p-2"><div className="text-[9px] text-slate-400">Floors</div><div className="text-[10px] font-semibold text-slate-800">{geoPropertyContext.floors || 'Not available'}{geoPropertyContext.floors ? ` · ${geoPropertyContext.floorsStatus}` : ''}</div></div>
-            </div>
-            <div className="flex gap-2 mt-3">
-              <button type="button" onClick={() => {
-                const c = geoPropertyContext.coordinates || []
-                if (Array.isArray(c) && c.length >= 2) setGeoLocation({ lat: Number(c[1]), lon: Number(c[0]), zoom: 17, pitch: 58, label: geoPropertyContext.name, type: 'building', source: geoPropertyContext.source })
-                clearGeoPropertyContext()
-              }} className="flex-1 px-2.5 py-1.5 rounded-lg bg-white border border-cyan-200 text-[9px] font-bold text-cyan-800 hover:bg-cyan-100 cursor-pointer">Return to City 3D</button>
-              <button type="button" onClick={clearGeoPropertyContext} className="px-2.5 py-1.5 rounded-lg bg-white border border-slate-300 text-[9px] font-bold text-slate-700 hover:bg-slate-50 cursor-pointer">Clear</button>
-            </div>
-          </div>
-        )}
         {userRegion && (
           <>
             <div className="bg-white border border-cyan-200 rounded-xl p-3 mb-4 shadow-sm">

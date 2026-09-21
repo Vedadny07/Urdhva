@@ -49,7 +49,7 @@ The **Data & Survey Officer** role has been redesigned from the ground up to pro
   - Selects the 3D cadastral building on the map.
   - Automatically matches and assigns each resident to their respective floor (`F01`, `F02`, `F03`...).
   - Partitions floors into distinct 3D unit volumes using vibrant family color palettes (`FAMILY_COLORS`).
-  - Automatically generates URDHVA vertical property identifiers (e.g. `UP80010402-F01-U101`, `UP80010402-F02-U201`...).
+  - Automatically generates official hierarchical 3D ULPINs (e.g. `UP80010402-F01-U101`, `UP80010402-F02-U201`...).
   - Triggers the **Exploded 3D Floors View** so every floor separates in 3D space with floating occupant tags.
   - **Exact Requirement Statistics**:
     - **128 records imported**

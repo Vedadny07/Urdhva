@@ -45,8 +45,6 @@ export default function TopBar() {
   const userRegion = useStore((s) => s.userRegion)
   const userName = useStore((s) => s.userName)
   const cityRegions = useStore((s) => s.cityRegions)
-  const geographicMode = useStore((s) => s.geographicMode)
-  const setGeographicMode = useStore((s) => s.setGeographicMode)
 
   const regionInfo = userRegion ? cityRegions.find(r => r.id === userRegion) : null
 
@@ -122,20 +120,9 @@ export default function TopBar() {
         )}
       </div>
 
-      {/* Center Search Bar — unified property/ULPIN + geographic location search */}
+      {/* Center Search Bar */}
       <div className="hidden md:flex flex-1 justify-center min-w-0 px-2 order-3 lg:order-none basis-full lg:basis-auto">
-        <div className="flex items-center gap-1.5">
-          <SearchBar />
-          <button
-            type="button"
-            onClick={() => setGeographicMode(!geographicMode)}
-            title={geographicMode ? 'Return to detailed Property 3D' : 'Open India Geographic 3D'}
-            className={`shrink-0 px-2.5 py-2 rounded-xl border text-[10px] font-bold flex items-center gap-1.5 transition-all cursor-pointer ${geographicMode ? 'bg-cyan-100 text-cyan-900 border-cyan-300 shadow-sm' : 'bg-white text-slate-700 border-slate-300 hover:bg-slate-50'}`}
-          >
-            <Globe className="w-3.5 h-3.5" />
-            <span className="hidden xl:inline">{geographicMode ? 'Property 3D' : 'City 3D'}</span>
-          </button>
-        </div>
+        <SearchBar />
       </div>
 
       {/* Center status */}

@@ -206,14 +206,6 @@ const useStore = create((set, get) => ({
       selectedBuilding: null,
       selectedUnit: null,
       selectedInfra: null,
-      geographicMode: false,
-      geoLocation: null,
-      geoSelectedFeature: null,
-      geoPropertyContext: null,
-      geoSelectedUtility: null,
-      geoUtilityRequest: null,
-      geoUndergroundRequest: null,
-      maharashtraUlpinResult: null,
       builderMode: false,
       corporatorMode: 'addBuilding',
       corporatorConsoleOpen: true,
@@ -1822,37 +1814,6 @@ const useStore = create((set, get) => ({
   // SEARCH STATE
   // ═══════════════════════════════════════════════════════
   searchHistory: [],
-  // Global geographic explorer state. This stays separate from the local
-  // URDHVA property/underground 3D scene so the two visualization systems
-  // never overwrite each other's coordinates or selection state.
-  geographicMode: false,
-  geoLocation: null,
-  geoSelectedFeature: null,
-  geoPropertyContext: null,
-  geoSelectedUtility: null,
-  geoUtilityRequest: null,
-  geoUndergroundRequest: null,
-  maharashtraUlpinResult: null,
-  setGeographicMode: (enabled) => set((state) => ({
-    geographicMode: Boolean(enabled),
-    geoSelectedFeature: enabled ? state.geoSelectedFeature : null,
-  })),
-  setGeoLocation: (location) => set({
-    geographicMode: true,
-    geoLocation: location || null,
-    geoSelectedFeature: null,
-    geoSelectedUtility: null,
-    geoPropertyContext: null,
-  }),
-  setGeoSelectedFeature: (feature) => set({ geoSelectedFeature: feature || null }),
-  setGeoPropertyContext: (context) => set({ geoPropertyContext: context || null }),
-  clearGeoPropertyContext: () => set({ geoPropertyContext: null }),
-  setGeoSelectedUtility: (feature) => set({ geoSelectedUtility: feature || null }),
-  requestGeoUtility: (category) => set({ geoUtilityRequest: { category, token: Date.now() } }),
-  requestGeoUnderground: (category = null) => set({ geoUndergroundRequest: { category, token: Date.now() } }),
-  setMaharashtraUlpinResult: (result) => set({ maharashtraUlpinResult: result || null }),
-  clearMaharashtraUlpinResult: () => set({ maharashtraUlpinResult: null }),
-  clearGeoLocation: () => set({ geoLocation: null, geoSelectedFeature: null, geoSelectedUtility: null, geoPropertyContext: null, maharashtraUlpinResult: null }),
   addSearchHistory: (item) => set((state) => {
     const filtered = state.searchHistory.filter(i => i.id !== item.id)
     return { searchHistory: [item, ...filtered].slice(0, 5) }
@@ -2905,7 +2866,7 @@ const useStore = create((set, get) => ({
     get().addAlert({
       type: 'success',
       title: '👥 Floor Volumes & 3D ULPINs Assigned',
-      message: `Divided floors of "${building.name}" into ${matchedList.length} owner blocks with distinct colors & URDHVA vertical property identifiers!`
+      message: `Divided floors of "${building.name}" into ${matchedList.length} owner blocks with distinct colors & hierarchical 3D ULPINs!`
     })
 
     return linkResult

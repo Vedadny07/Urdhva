@@ -140,7 +140,7 @@ def generate_base_ulpin_for_building(building_id: str = None, locality: dict = N
 
 
 def unit_ulpin(base_display: str, suffix: str) -> str:
-    """Builds a URDHVA vertical-property display identifier by appending the
-    vertical suffix (F01, P1, B1, ...) on top of the compliant 14-digit base, e.g.
+    """Builds the full unit-level ULPIN by appending Urdhva's vertical/3D
+    suffix (F01, P1, B1, ...) on top of the compliant 14-digit base, e.g.
     '27-25-01-0011-0001' + 'F01' -> '27-25-01-0011-0001-F01'."""
     return f"{base_display}-{suffix}"

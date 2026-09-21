@@ -60,7 +60,7 @@ export function generateLocalBaseUlpin(existingBuildings = []) {
   return { stored, display: formatDisplay(stored) }
 }
 
-/** Builds a URDHVA vertical-property display identifier from a parcel base and vertical suffix. */
+/** Builds the full unit-level ULPIN: base display + vertical/3D suffix. */
 export function buildUnitUlpin(baseDisplay, suffix) {
   return `${baseDisplay}-${suffix}`
 }

@@ -3,8 +3,6 @@ import { Canvas } from '@react-three/fiber'
 import Scene from './three/Scene'
 import TopBar from './components/TopBar'
 import InfoPanel from './components/InfoPanel'
-import Geographic3DMap from './components/Geographic3DMap'
-import GeographicInspector from './components/GeographicInspector'
 import LoginPage from './components/LoginPage'
 import IntroScreen from './components/IntroScreen'
 import CorporatorPanel from './components/CorporatorPanel'
@@ -77,7 +75,6 @@ export default function App() {
   const importedMaps = useStore((s) => s.importedMaps)
   const importReceivedMap = useStore((s) => s.importReceivedMap)
   const demoTourActive = useStore((s) => s.demoTourActive)
-  const geographicMode = useStore((s) => s.geographicMode)
 
   // Legend auto-collapses to a small icon by default so it doesn't
   // permanently compete for bottom-left space with the Survey Console /
@@ -187,35 +184,29 @@ export default function App() {
       <TopBar />
 
       {/* Main content */}
-      <div className="flex-1 min-h-0 flex pt-[48px]">
-        {/* Main 3D workspace — geographic city explorer OR existing property 3D */}
-        <div className="flex-[7] min-h-0 min-w-0 relative">
-          {geographicMode ? (
-            <ErrorBoundary>
-              <Geographic3DMap />
-            </ErrorBoundary>
-          ) : (
-            <ErrorBoundary>
-              <Canvas
-                shadows
-                camera={{
-                  position: [50, 45, 50],
-                  fov: 45,
-                  near: 0.1,
-                  far: 2500,
-                }}
-                gl={{
-                  antialias: true,
-                  toneMapping: 3,
-                  toneMappingExposure: 1.0,
-                }}
-                style={{ background: '#f8fafc' }}
-                onContextMenu={(e) => e.preventDefault()}
-              >
-                <Scene />
-              </Canvas>
-            </ErrorBoundary>
-          )}
+      <div className="flex-1 flex pt-[48px]">
+        {/* 3D Scene — 70% */}
+        <div className="flex-[7] relative">
+          <ErrorBoundary>
+            <Canvas
+              shadows
+              camera={{
+                position: [50, 45, 50],
+                fov: 45,
+                near: 0.1,
+                far: 2500,
+              }}
+              gl={{
+                antialias: true,
+                toneMapping: 3,
+                toneMappingExposure: 1.0,
+              }}
+              style={{ background: '#f8fafc' }}
+              onContextMenu={(e) => e.preventDefault()}
+            >
+              <Scene />
+            </Canvas>
+          </ErrorBoundary>
 
           {/* Corporator overlay panel */}
           <CorporatorPanel />
@@ -441,10 +432,10 @@ export default function App() {
           </div>
         </div>
 
-        {/* Inspector — 30% */}
-        <div className="flex-[3] min-w-[300px] max-w-[420px] min-h-0 h-full overflow-hidden">
+        {/* Info Panel — 30% */}
+        <div className="flex-[3] min-w-[300px] max-w-[420px]">
           <ErrorBoundary>
-            {geographicMode ? <GeographicInspector /> : <InfoPanel />}
+            <InfoPanel />
           </ErrorBoundary>
         </div>
       </div>

@@ -1380,7 +1380,7 @@ const FloorOccupantsForm = () => {
               <div className="flex items-center justify-between border-b border-slate-800 pb-2">
                 <span className="text-xs font-bold text-slate-200 flex items-center gap-1.5">
                   <Users className="w-3.5 h-3.5 text-emerald-400" />
-                  <span>Delineated Units & URDHVA Vertical IDs ({totalOccupants} Owners)</span>
+                  <span>Delineated Units & 3D ULPINs ({totalOccupants} Owners)</span>
                 </span>
                 <span className="text-[10px] font-mono text-emerald-400 bg-emerald-950/60 px-2 py-0.5 rounded border border-emerald-800/40">
                   {floorsList.length} Floors Partitioned
